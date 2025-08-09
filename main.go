@@ -16,7 +16,7 @@ var targetPubkey, _ = hex.DecodeString("your_pubkey_here_in_hex_without_0x")
 
 const (
 	get12Words  = false
-	brute2Words = true
+	brute2Words = false
 )
 
 func main() {
